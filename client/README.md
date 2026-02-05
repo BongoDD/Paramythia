@@ -1,5 +1,30 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## ⚠️ First Time Setup - IMPORTANT!
+
+**Before running any commands, you MUST install dependencies:**
+
+### Windows Users:
+```bash
+setup.bat
+```
+Or manually:
+```bash
+npm install
+```
+
+### Mac/Linux Users:
+```bash
+./setup.sh
+```
+Or manually:
+```bash
+npm install
+```
+
+### Common Error:
+If you see `'next' is not recognized`, you forgot to run `npm install` first!
+
 ## Getting Started
 
 First, run the development server:

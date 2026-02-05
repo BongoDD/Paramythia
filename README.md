@@ -20,33 +20,43 @@ Paramythia/
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+ and npm
-- Firebase CLI (optional): `npm install -g firebase-tools`
+### ⚠️ IMPORTANT: First Time Setup
 
-### Installation
+**Before running the app, you MUST install dependencies!**
 
-1. **Install client dependencies:**
-   ```bash
-   cd client
-   npm install
-   ```
+If you get an error like `'next' is not recognized`, you skipped the installation step.
 
-2. **Install server dependencies (when ready):**
-   ```bash
-   cd server
-   npm install
-   ```
+👉 **See [SETUP.md](./SETUP.md) for detailed step-by-step instructions**
 
-### Development
+### Quick Start
 
-**Run the Next.js development server:**
 ```bash
+# 1. Navigate to client directory
 cd client
+
+# 2. Install dependencies (REQUIRED - do this first!)
+npm install
+
+# 3. Run development server
 npm run dev
 ```
 
 The application will be available at `http://localhost:3000`.
+
+### Prerequisites
+- Node.js 18+ and npm ([Download here](https://nodejs.org/))
+- Git
+- Firebase CLI (optional): `npm install -g firebase-tools`
+
+### Troubleshooting
+
+❌ **Error: 'next' is not recognized**
+- **Solution:** Run `npm install` in the `client` directory first
+
+❌ **Error: Cannot find module 'next'**
+- **Solution:** Run `npm install` in the `client` directory first
+
+📖 **For more help:** See [SETUP.md](./SETUP.md) for comprehensive troubleshooting
 
 **Build for production:**
 ```bash
