@@ -3,11 +3,11 @@ import Footer from "@/app/components/Footer";
 
 export default function BookStore() {
   return (
-    <div className="min-h-screen bg-[#FEFCF5] page-transition">
+    <div className="min-h-screen bg-[#FEFCF5] page-transition flex flex-col">
       <Navigation />
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 w-full">
         <div className="text-center">
           <div className="text-5xl sm:text-6xl mb-6 sm:mb-8 animate-bounce">📚</div>
           <h1 className="text-4xl sm:text-5xl font-bold text-[#583101] mb-4 animate-fadeIn">

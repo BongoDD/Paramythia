@@ -4,11 +4,11 @@ import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#FEFCF5] page-transition">
+    <div className="min-h-screen bg-[#FEFCF5] page-transition flex flex-col">
       <Navigation />
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 w-full">
         {/* Hero Section */}
         <section className="text-center mb-12 sm:mb-16">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#583101] mb-4 animate-fadeIn">
