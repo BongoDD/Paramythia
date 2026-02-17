@@ -64,9 +64,46 @@ cd client
 npm run build
 ```
 
-## 🔥 Firebase Integration
+## 🚀 Deployment
 
-### Configuration
+### Deploying to Firebase Hosting
+
+**Quick Deploy:**
+```bash
+cd client
+npm run deploy:hosting
+```
+
+This will build the project and deploy it to Firebase Hosting.
+
+**Prerequisites:**
+- Firebase CLI installed: `npm install -g firebase-tools`
+- Logged in to Firebase: `firebase login`
+- Access to the `paramythia-88562` Firebase project
+
+**Production URL:** https://paramythia-88562.web.app
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md).
+
+## 🔧 Development Tools
+
+### Visual Studio Code (Recommended)
+
+For the best development experience with this project:
+
+1. **Open the project in VS Code**
+2. **Install recommended extensions** (VS Code will prompt you automatically)
+   - GitLens - Git visualization and features
+   - Firebase Explorer - Manage Firebase directly in VS Code
+   - Tailwind CSS IntelliSense
+   - ESLint
+   - And more!
+
+3. **Git integration** is configured with auto-fetch and smart commits
+
+See [GIT_WORKFLOW.md](./GIT_WORKFLOW.md) for complete Git/GitHub setup guide.
+
+### Firebase Configuration
 The Firebase configuration is located in `client/src/lib/firebase.ts`. The app is already connected to the Paramythia Firebase project.
 
 ### Managing Firebase Features
@@ -131,6 +168,10 @@ This is **Paramythia V1** - the initial version of the educational book and play
 
 ## 📚 Documentation
 
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Complete guide for deploying to Firebase Hosting
+- **[GIT_WORKFLOW.md](./GIT_WORKFLOW.md)** - Git and GitHub integration guide for Visual Studio and VS Code
+- **[FIREBASE_GUIDE.md](./FIREBASE_GUIDE.md)** - Firebase features and management guide
+- **[SETUP.md](./SETUP.md)** - Initial project setup and troubleshooting
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Firebase Documentation](https://firebase.google.com/docs)
 - [React Documentation](https://react.dev)
